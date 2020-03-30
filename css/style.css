@@ -1,0 +1,42 @@
+html {
+  touch-action: none;
+}
+
+body {
+  position: fixed;
+  height: 100%;
+  width: 100%;
+
+  user-select: none;
+  /* Crucial for preventing mobile pinch-zoom etc.*/
+  touch-action: none;
+
+  /* Prevent User Select */
+  -moz-user-select: none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  background-color: #323232;
+}
+
+.card {
+  position: fixed;
+  height: 200px;
+  width: 200px;
+  border-radius: 125px;
+  box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.2);
+  touch-action: none;
+}
+
+.card-1 {
+  background-color: #9898db;
+}
+
+.card-2 {
+  background-color: #9addd7;
+}
+
+.card-3 {
+  background-color: #9addaf;
+}
